@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.application_controller">
+   <children>
+      <Text fx:id="nameofplayer" layoutX="238.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name of the player" />
+      <TextField fx:id="thing" layoutX="207.0" layoutY="157.0" text="**the thing via base" />
+      <Text layoutX="200.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="youre in the group the thing is" />
+      <Text layoutX="85.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your purpose is to find out who's the one that is out of the group" wrappingWidth="431.65283203125" />
+      <Button fx:id="next_button_3_toprerole" layoutX="276.0" layoutY="295.0" mnemonicParsing="false" text="next" />
+      <Button fx:id="home_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="home" />
+   </children>
+</AnchorPane>

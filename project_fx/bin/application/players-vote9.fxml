@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.application_controller">
+   <children>
+      <Text layoutX="156.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="chose who do you think is the odd one out " />
+      <Button fx:id="home_button" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" text="home" />
+      <Button fx:id="player_button1" layoutX="268.0" layoutY="143.0" mnemonicParsing="false" text="player1" />
+      <Button fx:id="player_button2" layoutX="268.0" layoutY="192.0" mnemonicParsing="false" text="player2" />
+      <Button fx:id="player_button3" layoutX="268.0" layoutY="244.0" mnemonicParsing="false" text="player3" />
+      <Text fx:id="nameofplayer" layoutX="264.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="playername" />
+   </children>
+</AnchorPane>
